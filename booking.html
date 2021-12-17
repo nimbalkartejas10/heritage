@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Hotel Booking</title>
+  </head>
+<body style="background-color:#FCF6BA">
+  <form action="index.html">
+<center><h1>Reservation Form</h1>
+  <h4>(NOTE: Your reservation will be verified prior to your arrival)</h4>
+           <lable for="fname">Name:</lable>
+           <p> <input type="text" id ="fname" placeholder="Enter Your Full Name " required="required " /></p>
+
+           <lable for="phone">Phone No.::</lable>
+           <p> <input type="tel" id ="phone"  placeholder="Enter Your Phone Number " required="required " /></p>
+            
+           <lable for="email">Email-ID:</lable>
+           <p> <input type="email" id ="email" placeholder="Enter Your email id" required="required " /></p>
+
+          <lable for="date">Arrive :</lable>
+          <p> <input type="date" placeholder="Enter Arrival Date" required="required " /></p>
+
+          <lable for="date">Depart :</lable>
+          <p><input type="date" placeholder="Enter Departure Date" required="required " /></p>
+               
+            <lable for="room">Room :</lable>
+            <p><select id="room" name="room">
+                   <option value="Select Room Type">Select Room Type</option> 
+                    <option value="Standard">Standard</option>
+                    <option value="Deluxe">Deluxe</option>
+                    <option value="Suite">Suite</option>
+                    </select></p>
+
+              <lable for="message">Any Special Request?</lable>
+              <p><textarea name="message" rows="3" cols="30"></textarea></p>
+
+               <input type="submit" value=" Book My Room">
+</br></br>
+ </center>  
+</form>           
+</body>
+</html>
